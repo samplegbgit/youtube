@@ -1,0 +1,23 @@
+/* Sidebar.css */
+.sidebar {
+  width: 220px;
+  background-color: white;
+  height: calc(100vh - 56px); /* Full height minus navbar */
+  position: fixed;
+  top: 56px;
+  left: 0;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+.sidebar-item {
+  cursor: pointer;
+  padding: 12px 16px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-item:hover {
+  background-color: #f1f1f1;
+}

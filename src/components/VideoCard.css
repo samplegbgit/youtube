@@ -1,0 +1,27 @@
+/* VideoCard.css */
+.video-card {
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.video-card:hover {
+  transform: scale(1.02);
+}
+
+.video-card img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.video-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px;
+  color: #0f0f0f;
+}
+
+.video-meta {
+  font-size: 12px;
+  color: #606060;
+}

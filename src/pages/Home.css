@@ -1,0 +1,12 @@
+/* Home.css */
+.home-page {
+  margin-left: 220px; /* space for sidebar */
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
